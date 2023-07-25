@@ -1,8 +1,8 @@
 package handler
 
 import(
-	"github.com/wayne-campbell/url-shortener/shortener"
-	"github.com/wayne-campbell/url-shortener/store"
+	"github.com/Wayne-Campbell/url-shortener/shortener"
+	"github.com/Wayne-Campbell/url-shortener/store"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

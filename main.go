@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/wayne-campbell/url-shortener/handler"
-	"github.com/wayne-campbell/url-shortener/store"
+	"github.com/Wayne-Campbell/url-shortener/handler"
+	"github.com/wWayne-Campbell/url-shortener/store"
 	"github.com/gin-gonic/gin"
 	
 )
