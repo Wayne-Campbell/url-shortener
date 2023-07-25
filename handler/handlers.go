@@ -9,8 +9,8 @@ import(
 
 //request model definition
 type UrlCreationRequest struct{
-	LongUrl string 'json:"long_url" binding:"required'
-	UserId string 'json:"user_id" binding:"required'
+	LongUrl string 'json:"long_url" binding:"required"'
+	UserId string 'json:"user_id" binding:"required"'
 }
 
 func CreateShortUrl(c *gin.Context){
@@ -25,7 +25,7 @@ func CreateShortUrl(c *gin.Context){
 
 	host := "http:localhost:9808/"
 	c.JSON(200, gin.H{
-		"message": "short url created successfully"
+		"message": "short url created successfully",
 		"short_url": host +shortUrl,
 	})
 }
