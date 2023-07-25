@@ -27,6 +27,6 @@ func GenerateShortLink(initialLink string, userId string) string {
 	//created big number from hashbytes
 	generatedNumber := new(big.Int).SetBytes(urlHashBytes).Uint64()
 	//apply base58 to the integer and picks first 8 characters
-	finalString := base58Encoded([]byte(fmt.Sprintf("%d" generatedNumber)))
+	finalString := base58Encoded([]byte(fmt.Sprintf("%d", generatedNumber)))
 	return finalString[:8]
 }
