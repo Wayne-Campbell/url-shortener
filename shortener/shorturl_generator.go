@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/itchyny/base58-go"
 	"os"
+	"math/big"
 )
 //hashing the initilial input
 func sha2560f(input string) []byte {
