@@ -3,7 +3,7 @@ package shortener
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/itchy/base58-go"
+	"github.com/itchyny/base58-go"
 	"os"
 )
 //hashing the initilial input
