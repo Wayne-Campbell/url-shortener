@@ -9,8 +9,8 @@ import(
 
 //request model definition
 type UrlCreationRequest struct{
-	LongUrl string 'json:"long_url" binding:"required"'
-	UserId string 'json:"user_id" binding:"required"'
+	LongUrl string `json:"long_url" binding:"required"`
+	UserId string `json:"user_id" binding:"required"`
 }
 
 func CreateShortUrl(c *gin.Context){
