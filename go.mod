@@ -1,4 +1,4 @@
-module github.com/wayne-campbell/go-url-shortener
+module github.com/wayne-campbell/url-shortener
 
 go 1.20
 
